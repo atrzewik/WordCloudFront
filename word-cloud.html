@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cloud-style.css">
+</head>
+<body>
+    <div id="container">
+
+        <form id = "form-file" onsubmit="return false;">
+            <div id="container-file-type">
+                <label id="label-for-file-type" for="file-type">
+                    File type:
+                </label>
+
+                <select id="file-type" name="file-type" required aria-required="true" autofocus onchange="changeTextArea(this);">
+                    <option value="">...</option>
+                    <option value="file://">file</option>
+                    <option value="http://">http</option>
+                    <option value="https://">https</option>
+                    <option value="">text</option>
+                </select>
+            </div>
+            </br>
+
+
+            <label id="content-label" for="content"> </label>
+            </br>
+            
+            <textarea id="content" name="content" rows="4" cols="50"></textarea>
+
+            <input type="submit" id="submitFile" name="submitFile" value="Submit" ></input>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="text-area.js"></script>
+<script type="text/javascript" src="sent-file.js"></script>
+
+</html>

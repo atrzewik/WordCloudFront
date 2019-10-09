@@ -1,0 +1,24 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; /* 100% viewport wysokości */
+    width: 100vw; /* 100% viewport wysokości */
+    background: rgba(224, 226, 199, 0.933);
+
+  }
+
+  #container-file-type, #container-for-buttons{
+    background: rgba(250, 250, 241, 0.933);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  button{
+    background:  rgba(148, 153, 144, 0.933);
+  }
