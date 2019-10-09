@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="cloud-style.css">
+</head>
+<body>
+    <div id="container">
+
+        <label id="label-for-word" for="word">
+                Word to count:
+        </label>
+        </br>
+        <textarea id="word" name="word" rows="4" cols="50" autofocus></textarea>
+
+        </br>
+
+        <div id="container-for-buttons">
+            <button id="back">Back</button>
+
+            <button id="count">Count</button>
+        </div>
+
+
+        <p>Quantity of word in the text: <span id="calculation" style="color:rebeccapurple"></span></p> 
+    </div>
+
+</body>
+
+
+<script type="text/javascript" src="count-word.js"></script>
+
+</html>
