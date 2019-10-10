@@ -1,0 +1,13 @@
+= About Word Cloud
+
+Front for link:https://github.com/atrzewik/WordCloud[WordCloud] application which allows counting an amount of chosen word in file, website or plain text.
+
+== Prerequisites
+
+* web browser
+
+== Running
+
+. command line: `python -m SimpleHTTPServer`
+
+. web browser: `http://localhost:8000/word-cloud.html`
